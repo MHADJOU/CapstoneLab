@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    background-color: #0B121F; /* Dark background */
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    height: 80px;
+    border-bottom: 1px solid #E5A254;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.navbar-brand {
+    color: #E5A254 !important; /* Orange color for the brand */
+    font-size: 20px;
+}
+
+.nav-link {
+    color: #DAEAFF !important; /* Light blue nav links */
+    margin-right: 20px;
+}
+
+/* Section Header */
+h5 {
+  color: blue;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/* semester and Work option */
+.sem_lab_work{
+  display: flex;
+  margin-top: 200px;
+}
+/* Button Styles */
+.btn_style{
+  width: 380px;
+  height: 45px;
+  background-color: white;
+}
+.sem_btn{
+  color: red;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 8px;
+    border: 1px solid blue;
+}
+
+/* Card Buttons */
+.btn-warning {
+    background-color: #E5A254 !important; /* Orange buttons */
+    color: #0B121F !important; /* Dark text */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-warning:hover {
+    background-color: #DAEAFF !important; /* Hover to light blue */
+    color: #0B121F !important; /* Dark text */
+}
+
+/* Icons */
+.bi {
+    font-size: 1.5rem;
+}

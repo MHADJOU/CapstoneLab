@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meenakshi Lab Login</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" id="logo" href="#">Meenakshi's IT Lab</a>
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Class materials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Student corner</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login Form Section -->
+    <section class="vh-100 d-flex align-items-center justify-content-center">
+        <div class="card p-4 shadow-lg rounded" >
+            <h4 class="text-center fw-bold mb-4">Sign In</h4>
+            <div for="form-title"></div>
+            <form>
+                <!-- Student ID Input -->
+                <div class="mb-3">
+                    <!--<label for="studentID" class="form-label">Your Student's ID</label>-->
+                    <input type="text" class="form-control" id="studentID" placeholder="Enter Student ID" required>
+                </div>
+
+                <!-- Password Input -->
+                <div class="mb-3">
+                    <!--<label for="password" class="form-label">Password</label>-->
+                    <input type="password" class="form-control" id="password" placeholder="Enter Password" required>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-warning fw-bold">Connexion</button>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="d-flex justify-content-between mt-3">
+                    <a href="#" class=" small">Forget Password?</a>
+                    <a href="./signUp.html" class=" small">Sign up !</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    background-color: #0B121F; /* Dark background color */
+    color: #ffffff; /* Light text color */
+    font-family: Arial, sans-serif;
+}
+h4{
+  color: #DAEAFF;
+}
+#logo{
+  color: #E5A254;
+}
+/* Navbar Styles */
+.navbar {
+  background-color: #0B121F;
+    height: 80px;
+    border-bottom: 1px solid #E5A254; /* Subtle bottom border */
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+/* mav link styles */
+ul li{
+  margin-right: 80px;
+  color: #DAEAFF;
+}
+ul li .nav-link{
+  color: #DAEAFF;
+}
+ul li .nav-link:hover{
+  color: #E5A254;
+}
+
+/* Login Card Styles */
+
+.card {
+    background-color: #0B121F; /* Slightly lighter dark for the card */
+    color: #ffffff; /* White text inside the card */
+
+    width: 350px;
+    border: 1px solid #E5A254;
+    padding-left: 1000px;
+}
+.form-title{
+  display: block;
+  height: 1px;
+  border-bottom: 1px solid blue;
+}
+form{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* Form Input Styles */
+.form-control {
+    background-color: #DAEAFF;
+    color: #0B121F;
+    border: 1px solid #444;
+}
+
+.form-control::placeholder {
+    color: #0B121F;
+}
+
+.form-control:focus {
+    border-color: #DAEAFF;
+    box-shadow: none;
+}
+
+/* Button Styles */
+.btn-warning {
+    background-color: #E5A254;
+    border: none;
+    color: #0B121F;
+}
+
+.btn-warning:hover {
+    background-color: #E5A254;
+    color: #DAEAFF;
+}
+
+/* Footer Links */
+a {
+    text-decoration: none;
+    color: #E5A254;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #DAEAFF;
+}

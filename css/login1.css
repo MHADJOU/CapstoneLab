@@ -1,0 +1,43 @@
+
+.link{
+  text-decoration: none;
+  color: black;
+}
+nav{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+ul{
+  text-decoration: non;
+  list-style-type: none;
+  display: flex;
+  margin-right: 180px;
+
+  font-size: 18px;
+}
+ul li{
+  margin-right: 50px;
+}
+
+#logo {
+  color: red;
+  margin-left: 180px;
+
+  font-size: 28px;
+}
+
+.form-box{
+  text-align: center;
+}
+.form-box{
+  text-align: center;
+}
+.form-input{
+  display: inline-block;
+  width: 300px;
+}
+.submit-btn{
+  display: block;
+}
